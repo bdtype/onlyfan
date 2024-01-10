@@ -83,7 +83,6 @@ const Post: React.FC<PostProps> = (props) => {
 	return (
 		<>
 			<Head>
-				<meta property="og:type" content="article" />
 				<meta property="og:locale" content="en_US" />
 				<meta property="og:site_name" content=12{host.split('.')[0]} />
 				<meta property="article:published_time" content={post.dateGmt} />
